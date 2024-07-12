@@ -3,8 +3,8 @@ import csv
 import os
 from datetime import datetime
 
-SECRET = 'tVMkzBSW60HM2kJSHnce1C0b2kZwag'
-APP_ID = 'NN0AUPTrPOSiuYqnuW5rAA'
+SECRET = ''
+APP_ID = ''
 User_Agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
 
 reddit = praw.Reddit(client_id=APP_ID, client_secret=SECRET, user_agent=User_Agent)
